@@ -103,9 +103,12 @@ const CartDetailPage = () => {
                       <CircularProgress percentage={30} />
                       <span className="font-bold">Raised</span>
                     </div>
-                    <div className="border rounded-lg bg-pink-700 text-white text-center py-3 font-bold">
-                      Whatsapp
-                    </div>
+                    <a
+                      href="https://wa.me/919994779300?text=Hello%2C%20I%20want%20to%20talk%20to%20you"
+                      className="border rounded-lg bg-pink-700 text-white text-center py-3 font-bold"
+                    >
+                      WhatsApp
+                    </a>
                   </div>
 
                   {/* Company Details */}
@@ -192,7 +195,7 @@ const CartDetailPage = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
